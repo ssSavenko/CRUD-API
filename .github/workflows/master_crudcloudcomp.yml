@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'CRUDCloudComp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_31E876462FDB45CA9CFFB3748ABB9FEE }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_62A629371F114B2193E9C3720961D3A7 }}
           package: .
