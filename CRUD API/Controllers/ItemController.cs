@@ -30,7 +30,7 @@ namespace CRUD_API.Controllers
         [HttpGet, Route("List")]
         public async Task<ActionResult> List()
         {
-            var res = db.Items;
+            var res = "[{\n\t\"id\": 2,\n\t\"name\": \"string\",\n\t\"description\": \"string\",\n\t\"price\": 0,\n\t\"onOffer\": true\n},\n{\n\t\"id\": 3,\n\t\"name\": \"string\",\n\t\"description\": \"string\",\n\t\"price\": 0,\n\t\"onOffer\": true\n},\n{\n\t\"id\": 4,\n\t\"name\": \"string\",\n\t\"description\": \"string\",\n\t\"price\": 0,\n\t\"onOffer\": true\n}]";
             return Ok(res);
         }
 
